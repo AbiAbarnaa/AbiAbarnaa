@@ -1,0 +1,2627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="nav.css">
+    
+    <title>sidebar</title>
+</head>
+<body>
+    <button id='navButton'>
+        <div hidden class="close-btn">X
+
+        </div>
+        <div class="hamburger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </button>
+    <nav>
+        <div id="roadmap-container">
+            <a href="#"class='menu-item'>DEPARTMENT OF ECE</a>
+
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">home</i>
+            
+            <a href="#roadmap-article"class="menu-item" style="margin-left: 6px;font-size: 1.1rem;color: rgb(36, 36, 36);">Home</a>
+
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">local_activity</i>
+            <button data-list="1" class="menu-dropdown-item" style="font-family: 'poppins';">Programmes
+                <i id="sublist-1-arrow" class="material-icons">arrow_drop_down</i>
+
+            </button>
+            <ul id="sublist-1" hidden>
+                <li><a href="#sec1-a" class=" menu-item">B.E</a></li>
+                <li><a href="#sec1-b" class=" menu-item">M.E</a></li>
+                
+            </ul>
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">local_library</i>
+            
+            <a href="#cmaterial"class="menu-item" style="margin-left: 6px;font-size: 1.1rem;color: rgb(36, 36, 36);">Course Material</a>
+
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">calendar_today</i>
+            
+            <a href="#calmaterial"class="menu-item" style="margin-left: 6px;font-size: 1.1rem;color: rgb(36, 36, 36);">Academic Calendar</a>
+
+        </div>
+        <div  class="menu-link ic">
+            <i class="material-icons">dynamic_feed</i>
+            <button data-list="2" class="menu-dropdown-item"style="font-family: 'poppins';">Facilities
+                <i id="sublist-2-arrow"  class="material-icons">arrow_drop_down</i>
+
+            </button>
+            <ul id="sublist-2" hidden>
+                <li><a href="#lmaterial" class=" menu-item">Lab</a></li>
+                <li><a href="#limaterial" class=" menu-item">Library</a></li>
+            </ul>
+        </div>
+        <div  class="menu-link ic">
+            <i class="material-icons">build</i>
+            <button data-list="3" class="menu-dropdown-item" style="font-family: 'poppins';">Research
+                <i id="sublist-3-arrow" class="material-icons">arrow_drop_down</i>
+
+            </button>
+            <ul id="sublist-3" hidden>
+                <li><a href="#mmaterial" class=" menu-item">MOUs</a></li>
+                <li><a href="#conmaterial" class=" menu-item">Consultancy</a></li>
+                <li><a href="#phmaterial" class=" menu-item">Ph.D Completed and Registered</a></li>
+                <li><a href="#promaterial" class=" menu-item">Proposals</a></li>
+                <li><a href="#patmaterial" class=" menu-item">Patents</a></li>
+                <li><a href="#jomaterial" class=" menu-item">Journal Publications</a></li>
+                <li><a href="#pumaterial" class=" menu-item">Conference Publications</a></li>
+                <li><a href="#simaterial" class=" menu-item">Situation Satistics</a></li>
+                <li><a href="#bmaterial" class=" menu-item">Books/Books Chapter Published</a></li>
+                <li><a href="#fmaterial" class=" menu-item">SIG-Faculty</a></li>
+                
+            </ul>
+        </div>
+        <div  class="menu-link ic">
+            <i class="material-icons">people</i>
+            <button data-list="4" class="menu-dropdown-item" style="font-family: 'poppins';">People
+                <i id="sublist-4-arrow" class="material-icons">arrow_drop_down</i>
+
+            </button>
+            <ul id="sublist-4" hidden>
+                <li><a href="" class=" menu-item">Faculty</a></li>
+                <li><a href="" class=" menu-item">Supporting Staff</a></li>
+            </ul>
+        </div>
+        <div  class="menu-link ic">
+            <i class="material-icons">wb_incandescent</i>
+            <button data-list="5" class="menu-dropdown-item" style="font-family: 'poppins';">Activities
+                <i id="sublist-5-arrow" class="material-icons">arrow_drop_down</i>
+
+            </button>
+            <ul id="sublist-5" hidden>
+                <li><a href="#sec5-a" class=" menu-item">Events</a></li>
+                <li><a href="#clmaterial" class=" menu-item">Clubs</a></li>
+                <li><a href="#asmaterial" class=" menu-item">Associations</a></li>
+                <li><a href="http://117.239.103.188/media/Cocurricular_participataions_20.06.2021.pdf" class=" menu-item">Co-Curricular</a></li>
+                <li><a href="http://117.239.103.188/media/2019-20_sports_as_on_16.6.2021.pdf" class=" menu-item">Sports</a></li>
+                
+            </ul>
+        </div>
+        <div  class="menu-link ic">
+            <i class="material-icons">emoji_events</i>
+            <button data-list="6" class="menu-dropdown-item" style="font-family: 'poppins';">Achievements
+                <i id="sublist-6-arrow" class="material-icons">arrow_drop_down</i>
+
+            </button>
+            <ul id="sublist-6" hidden>
+                <li><a href="#plmaterial" class=" menu-item">Placements</a></li>
+                <li><a href="#ranmaterial" class=" menu-item">Rank Holders</a></li>
+                <li><a href="#bematerial" class=" menu-item">Best Outgoing Students</a></li>
+                <li><a href="http://117.239.103.188/media/final_Cocuricular_acheivements_as_on_21.06.2021_bd0yPPw.pdf" class=" menu-item">Students</a></li>
+                <li><a href="http://117.239.103.188/media/FACULTY_AWARDS__ACHIEVEMENTS_OU1Ph4Q.pdf" class=" menu-item">Faculty</a></li>
+            </ul>
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">spa</i>
+            
+            <a href="#disarticle"class="menu-item" style="margin-left: 6px;font-size: 1.1rem;color: rgb(36, 36, 36);">Distinguished Alumni</a>
+
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">local_library</i>
+            
+            <a href="#hiarticle"class="menu-item" style="margin-left: 6px;font-size: 1.1rem;color: rgb(36, 36, 36);">Higher Studies</a>
+
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">file_copy</i>
+            
+            <a href="http://117.239.103.188/media/ECE_NEWSLETTER_-_2020-21.pdf"class="menu-item" style="margin-left: 6px;font-size: 1.1rem;color: rgb(36, 36, 36);">News and MagaZines</a>
+
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">photo</i>
+            
+            <a href="#tesarticle"class="menu-item" style="margin-left: 6px;font-size: 1.1rem;color: rgb(36, 36, 36);">Testimonials</a>
+
+        </div>
+        <div class="menu-link ic">
+            <i class="material-icons">photo</i>
+            
+            <a href="#gamaterial"class="menu-item" style="margin-left: 6px;font-size: 1.1rem;color: rgb(36, 36, 36);">Gallery</a>
+
+        </div>
+
+    </nav>
+    <main>
+        
+        <article id="roadmap-article" class="active-article">
+            <div class="slider">
+                <div class="slide active">
+                  <img src="http://117.239.103.188/media/image/11.png" alt="">
+                  <!-- <div class="info">
+                    <h2>Title</h2>
+                    <p>Description here</p>
+                  </div> -->
+                </div>
+                <div class="slider">
+                  <div class="slide">
+                    <img src="http://117.239.103.188/media/image/11.png" alt="">
+                    <!-- <div class="info">
+                      <h2>Title</h2>
+                      <p>Description here</p>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="navigation">
+                  <i class="fas fa-chevron-left prev-btn"></i>
+                  <i class="fas fa-chevron-right next-btn"></i>
+                </div>
+                
+              </div>
+
+              <div class="det">
+                <div class="depname">
+                  <h3 style="margin-left: 10px;color: darkblue;">DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING</h3>
+                  <p style="margin: 0px;font-size: .679em;font-weight: 900;">ACCREDITED BY NBA UNDER TIER-I</p>
+                  <hr>
+                </div>
+                <div class="depdet">
+                  <div class="contp">
+                  <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;">ABOUT DEPARTMENT</h3>
+                  <p>Started in the year 1985, the Department of ECE has grown higher and is considered as one of the well-equipped departments across the state in terms of infrastructure, Curriculum and Content quality and quality of teaching faculty. While building a solid foundation of the fundamentals, the students are also exposed to emerging trends in the industry and are moulded to be quality professionals of the future. Department of Electronics and Communications Engineering aims at providing T- shaped learning through stream-based electives where students are provided with the choice of getting specialized in any one of the thrust areas like VLSI, Embedded Systems, Communication Engineering, Networks, Image and video processing. The department houses Electronics Sector Skills Council of India sponsored Centre of Excellence in VLSI and Embedded Systems (One of its Kind across Tamilnadu) to develop skilled manpower under the scheme of Skill India and Start-up India to meet the vision of the country, 'Make in India'. Department of Electronics and Communication Engineering has a sanctioned intake of 180 by AICTE and offers UG, PG and PhD Programmes in ECE. Department of ECE is accredited by NBA and permanently affiliated to Anna University, Chennai.</p>
+                </div>
+                <div class="contp">
+                  <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;">VISION</h3>
+                  <p>To produce technical manpower of global standards in Electronics and Communication Engineering with capabilities of adapting to new challenges to address the societal needs.</p>
+                </div>
+                <div class="contp">
+                  <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;">MISSION</h3>
+                  <ul>
+                    <li><p> 1. Equipping faculty members with knowledge in cutting-edge technologies through various programs.</p></li>
+                    <li><p> 2. Imparting quality education to meet the requirements of all stakeholders with the help of well-qualified and experienced faculty resources.
+                    </p></li>
+                      <li><p> 3. Nurturing competent professionals through extra and co-curricular activities.
+                      </p></li>
+                      <li><p> 4. To promote research and development activities by setting up new research facilities and industrial interaction.
+                      </p></li>
+                      <li><p> 5. Accomplishing the technological needs of the society.
+                      </p></li>
+                  </ul>
+                </div>
+              <!-- <div class="contp">
+                  <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;">HOD's DESK</h3>
+                  <div class="imf" style="">
+                    <div class="imgc"><img src="http://117.239.103.188/media/image/DR.P.Tamije_Selvy.png" alt=""></div>
+                    <p>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      Dr.P.Tamije Selvy, Professor, Department of Computer science and Engineering with her rich academic experience 
+                      heads the department along with a team of highly qualified and dedicated professionals. She started her teaching 
+                      career in the year 1996 has a teaching experience that spans nearly 25 years. Her research area includes medical data 
+                      mining and networking. She is a recognized supervisor by Anna University, Chennai and guiding several research 
+                      projects of PhD scholars. So far, her research background is concerned, she has a good publication record of 10
+                      9 and also has 11 teaching awards. She has authored 5 book chapters that have been published by reputed publishers
+                       and Patented 5 of her ideas. She is an active member of International Association of Engineers (IAENG), International
+                        Society for Research and Development (ISRD), International Computer Science and Engineering Society (ICSES). She is an 
+                        Oracle Certified Professional JAVA SE 6 Programmer. She has coordinated and organized several technical workshops and 
+                        seminars. She is serving the institution as a member of several committees like Research and Development Cell Coordinator, 
+                        CBCS Coordinator for CSE, BOS Member, Academic Council Member, NBA DEPT Incharge, Interview Panel Member, Faculty Advisor 
+                        for CSE Association, Purchase Committee Member for Funded Project, NAAC File Preparation Committee Chair for CSE,
+                       NAAC Criteria Incharge, NIRF Criteria Incharge, IQAC Criteria Incharge, Anti ragging committee member etc.,
+
+                    </p>
+                  </div>//* -->
+
+                </div>
+                <div class="contp">
+                  <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;">PROGRAM EDUCTIONAL OBJECTIVES</h3>
+                  <ul>
+                    <p>Graduates will be able to</p>
+                    <li><p> PEO1. Apply the broad fundamental concepts of mathematics and science in Electronics and Communication Engineering to be competent enough in their chosen careers.</p></li>
+                    <li><p> PEO2. Innovatively design, simulate, develop, implement and test hardware and software components for offering solution to real life problems and also to demonstrate effective communication skills, the ability to work well either individually or as part of a team.</p></li>
+                    <li><p>PEO3. Become scientists, technocrats and business leaders by utilizing an intellectual environment through Centres of Excellence in research and development oriented emerging technologies and intensive training.</p></li>
+                    <li><p>PEO4.Be a good human being and responsible citizen for the overall welfare of the society.</p></li>
+                  </ul>
+
+                </div>
+                <div class="contp">
+                  <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;">PROGRAM OUTCOMES</h3>
+                  <p>Graduates of Electronics and Communication Engineering program of Sri Krishna College of Technology will have the ability to</p>
+                  <p>PO1.Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.</p>
+                  <p>PO2.Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.</p>
+                  <p>PO3.Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.
+                  </p>
+                  <p>PO4.Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.</p>
+                   <p>PO5.Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.</p>
+                  <p>
+                    PO6. The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.
+                  </p>
+                  <p>
+                    PO7. Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
+                  </p>
+                  <p>
+                    PO8. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.
+                  </p>
+                  <p>
+                    PO9. Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+                  </p>
+                  <p>
+                    PO10. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+                  </p>
+                  <p>
+                    PO11. Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+                  </p>
+                  <p>
+                    PO12. Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+                  </p>
+
+
+
+                </div>
+                <div class="contp">
+                  <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;">PROGRAM SPECIFIC OUTCOMES</h3>
+                  <p>A graduate of the Electronics and Communication Engineering Program of Sri Krishna College of Technology will demonstrate:</p>
+                  <p>
+                    PSO1: Professional Skills: An ability to understand the fundamental concepts in Electronics & Communication Engineering and to apply them to various areas, like Analog & Digital Electronic Systems, Signal & Image Processing, VLSI & Embedded systems, wired & wireless communication networks etc., in the design and implementation of complex systems.
+
+                  </p>
+                  <p>
+                    PSO2: Problem-Solving Skills: An ability to solve complex Electronics and communication Engineering problems in areas, like Analog & Digital Electronic Systems, Signal & Image Processing, VLSI & Embedded systems, wired & wireless communication networks etc., using latest hardware and software tools, along with analytical skills to arrive cost effective and appropriate solutions.
+
+                  </p>
+                  
+
+                </div>
+                  
+                </div>
+              </div>
+        </article>
+        <article hidden id="sec1-a">
+          <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">B.E PROGRAM</h3>
+          <p>
+              Electronic communications engineering is the utilization of science and mathematics applied to practical problems in the field of communications. The Electronics & Communication Engineering involves the transmission of information across channels such as a coax cable, optical fiber, or free space. Electronic communications engineers engage in research, design, development, and testing of the electronic equipment used in various communications systems. It is due to electronics and communication engineers that we enjoy such modern communication devices as cellular telephones, radios, and television. You can work on designing equipment such as routers, switches, multiplexers, and electronic switching systems, copper telephone facilities, and fiber optics.
+            </p>
+            <p>1985 - 2002</p>
+            
+            <li>BE ECE Program was started with an intake of 60</li>
+            <p>2003 - 2005</p>
+            <li>Intake of BE ECE Program was increased from 60 to 90</li>
+            <p>2005 - 2011</p>
+            <li>Intake of BE ECE Program was increased from 90 to 120</li>
+            <p>2011 - Till date</p>
+            <li>Intake of BE ECE Program was increased from 120 to 180</li>
+        </article>
+        <article hidden id="sec1-b">
+          <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">M.E PROGRAM</h3>
+            <p>2006 - 2007</p>
+            <li>ME Applied Electronics Program was started with an intake of 12</li>
+        </article>
+        <article hidden id="cmaterial">
+          <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">COURSE MATERIAL</h3>
+          <h4 style="color: blue;">2020 - 2021</h4>
+          <p>ODD SEM</p>
+          <li><a href="http://117.239.103.188/media/17EC326_MICROWAVE_AND_OPTICAL_COMMUNICATION_COURSE_CONTENT.pdf" target="blank">17EC326_MICROWAVE AND OPTICAL COMMUNICATION COURSE CONTENT</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7 "target="blank">-Feedback Form</a></li>
+          <li><a href="http://117.239.103.188/media/17EC327__Wireless_Communication_Networks.pdf" target="blank">17EC327_Wireless Communication Networks</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+          <li><a href="http://117.239.103.188/media/17EC409_ASIC.pdf" target="blank">17EC409_ASIC</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+          <li><a href="http://117.239.103.188/media/17EC410_-_Digital_Low_Power_VLSI_Design.pdf" target="blank">17EC410_Digital Low Power VLSI Design</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+          <li><a href="http://117.239.103.188/media/17EC413-CAD_for_VLSI_circuits.pdf" target="blank">17EC413-CAD for VLSI circuits</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank"></a>-Feedback Form</li>
+          <li><a href="http://117.239.103.188/media/17EC417_Sensors_for_Industrial_applications_IV_ECE.pdf" target="blank">17EC417_Sensors for Industrial applications IV ECE</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+          <li><a href="http://117.239.103.188/media/17EC418_-_AUTOMOTIVE_ELECTRONICS.pdf" target="blank">17EC418-AUTOMOTIVE ELECTRONICS</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+          <li><a href="http://117.239.103.188/media/17EC424_BAN_Anitha.pdf" target="blank">17EC424_Body Area Network</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/17MG003_Principles_of_Management.pdf" target="blank">17MG003_Principles of Management</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18EC501_Microcontrollers_and_Interfacing.pdf" target="blank">18EC501_Microcontrollers and Interfacing</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18EC502_Digital_Communication.pdf" target="blank">18EC502 Digital Communication</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18EC503-DSP.pdf" target="blank">18EC503-Digital Single Processing</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18ECE36_Introduction_to_Digital_Image_Processing.pdf" target="blank">18ECE36_Introduction to Digital Image Processing</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18ICS08_ELECTRICAL_MACHINES_AND_CONTROL_SYSTEMS.pdf" target="blank">18ICS08_ELECTRICAL MACHINES AND CONTROL SYSTEMS</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/19EC302-Digital_system_design.pdf" target="blank">19EC302-Digital system design</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/19EC303_Analog_Communication.pdf" target="blank">19EC303 _Analog Communication</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/20EC101_Introduction_to_ECE.pdf" target="blank">20EC101_Introduction to ECE</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <p>EVEN SEM</p>
+        <li><a href="http://117.239.103.188/media/18EC601_Antenna_Design_and_Measurements_72GRpPT.pdf" target="blank">18EC601_Antenna Design and Measurements</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18EC602_EMBEDDED_SYSTEMS_DESIGN.pdf" target="blank">18EC602 _EMBEDDED SYSTEMS DESIGN</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18EC603__VLSI_CIRCUITS.pdf" target="blank">18EC603_VLSI CIRCUITS</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18ECE11_Embedded_Processors.pdf" target="blank">18ECE11_Embedded Processors</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18ECE23_Tracking_and_Navigation_Systems.pdf" target="blank">18ECE23 _Tracking and Navigation Systems</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18ECE38_HSN_Anitha.pdf" target="blank">18ECE38_High Speed Network</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/18ICS09_SENSOR_TECHNOLOGY.pdf" target="blank">18ICS09_SENSOR TECHNOLOGY</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/19EC403_MCI.pdf" target="blank">19EC403_Microcontrollers and Interfacing</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <li><a href="http://117.239.103.188/media/20EC201_NETWORK_THEORY.pdf" target="blank">20EC201_NETWORK THEORY</a><a href="https://forms.gle/KiYGkmXbb5tESHKY7" target="blank">-Feedback Form</a></li>
+        <h4 style="color: blue;">2020 - 2021</h4>
+        <p>EVEN SEM</p>
+        <li><a href="http://117.239.103.188/media/19EC402_ADC.pdf" target="blank">19EC402_Analog and Digital Communiaction</a><a href="https://docs.google.com/forms/d/e/1FAIpQLSd9A3fpJ2t8WpSgI5u66oYek_bFkdmqwNc17KdrZanGYxrpVQ/viewform" target="blank">-Feedback Form</a></li>
+        
+      </article>
+      <article hidden id="calmaterial">
+        <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">ACADEMIC CALENDAR</h3>
+        <a  href="http://117.239.103.188/media/Academic_Calendar-_ECE_-_21-22_ODD.pdf" target="blank"><i class="material-icons" style="color: blue; margin-right: 20px;margin-bottom: 10px; ">cloud_download</i><li style="list-style: none;">ECE CALENDAR ODD SEMESTER</li></a>
+        </article>
+
+        <article hidden id="lmaterial">
+          <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">LABORATORY</h3>
+          <h4 style="color: blue; margin-bottom: 30px;">ANALOG INTEGRATED CIRCUITS LAB</h4>
+          <div class="con">
+          <img src="	http://117.239.103.188/media/image/Copy_of_Analog_Integrated_Circuits_Lab_bl7pvnM.jpg" alt="" >
+          <img src="http://117.239.103.188/media/image/LIC.jpg" alt="" >
+          <img src="	http://117.239.103.188/media/image/lic.jpg" alt="" >
+        </div>
+        <h4>PURPOSE</h4>
+        <p>The Analog Integrated Circuits laboratory course introduces the concept and application of operational amplifiers. The objective of this lab is to learn the concepts and employ it to design various integrated circuits using Operational Amplifiers. , PLL, 555 Timer and voltage regulators.</p>
+        <h4>OUTCOME</h4>
+        <p>The lab is equipped with 50MHz Digital Storage Oscilloscope, Dual RPS, 3MHz Function Generator, 10MHz Pulse Generator, Ammeter, Voltmeter, DRB, DCB, DIB, Multimeter, Signal Generator and Cathode Ray Oscilloscope. Various circuits are constructed using Operational Amplifiers, PLL, and 555 Timer and voltage regulators. The experiments conducted in this lab facilitate the student to apply their knowledge in practical applications.</p>
+        <h4>LAB INCHARGE</h4>
+        <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Dr. A.Kiruthika, Associate Professor,ECE Department</p>
+
+        <h4 style="color: blue; margin-bottom: 30px;">COMMUNICATION SYSTEMS LAB</h4>
+        <div class="con">
+        <img src="http://117.239.103.188/media/image/Communication_Systems_Lab.jpg" alt="">
+        <img src="	http://117.239.103.188/media/image/ADC_BEmH8Wm.jpg" alt="">
+        <img src="	http://117.239.103.188/media/image/comm_lab.jpg" alt="">
+      </div>
+      <h4>PURPOSE</h4>
+      <p>The Communication Systems laboratory is facilitated to acquire knowledge in the field of Analog and Digital Communication.</p>
+      <h4>OUTCOME</h4>
+      <p>Fundamentals of Analog and Digital communication circuits are studied in this Lab. The lab is equipped with signal generators, pulse generators, single and dual power supplies, Cathode ray oscilloscopes and digital storage oscilloscopes to measure various parameters like voltage and frequency. The lab is also equipped with AM / FM generators and counters that can generate AM / FM frequencies, Various Analog / Digital communication trainer kits are also available for the students to perform fundamental to advanced level experiments in communication systems of either analog or digital. Fully synthesized spectrum analyser is also available to study high-frequency design and analysis experiments. RF design modules such as high pass filter, low pass filter, band pass filter etc., and are available for the students to explore their knowledge in the area of RF system design. EDA software 7.1 Microsim is available to design and simulate various analog and digital communication circuits. ></p>
+      <h4>ROLE</h4>
+      <p>This lab facilitates to acquire knowledge in the field of Analog and Digital communication circuit design that is used in all electronics and communication core companies like Honeywell, BSNL, AIRTEL, etc.</p>
+      <h4>LAB INCHARGE</h4>
+      <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Ms.S.Thenmozhi, Assistant Professor, ECE Department</p>
+
+      <h4 style="color: blue; margin-bottom: 30px;">COMPUTER NETWORKS LAB</h4>
+      <div class="con">
+        <img src="http://117.239.103.188/media/image/Computer_Networks_Lab.jpg" alt="">
+        <img src="http://117.239.103.188/media/image/COMPUTER_NETWORKS_LAB.jpg" alt="">
+        <img src="http://117.239.103.188/media/image/cn.jpg" alt="">
+      </div>
+      <h4>PURPOSE</h4>
+      <p>The Computer Networks Laboratory is facilitated to acquire knowledge in the field of computer network or data network which allows computers to exchange data. In computer networks, networked computing devices pass data between network links. Data transmission is carried out in the form of packets. Communications in computer networks are done with communications protocols to organize network traffic, the network’s size, topology, security and organizational intent.</p>
+      <h4>OUTCOME</h4>
+      <p>The concepts of computer networking is understood and practical notions of protocols with an emphasis on TCP/IP is acquired. Our lab provides a practical approach to Ethernet/Internet networking: networks are assembled, and experiments are made to understand the layered architecture and study the performance of protocols. Layered architecture of network protocols and their performance is analysed. the data link layer protocols, local area networks and the network layer protocols are studied . Transport layer with TCP and UDP as well as the socket interface and different topologies are analysed.</p>
+    <h4>LAB INCHARGE</h4>
+  <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Dr. P. Jayarajan, Associate Professor, ECE Department.</p> 
+
+      <h4 style="color: blue; margin-bottom: 30px;">DIGITAL ELECTRONICS LAB</h4>
+      <div class="con">
+        <img src="http://117.239.103.188/media/image/Digital_Electronics_Lab.jpg" alt="">
+        <img src="	http://117.239.103.188/media/image/Digital.jpg" alt="">
+        <img src="http://117.239.103.188/media/image/digi_XGGqXB2.jpg" alt="">
+      </div>
+      <h4>PURPOSE</h4>
+      <p>The Digital Electronics laboratory is designed such that the students get hands-on familiarity with the concepts they come across in the Digital Electronics course. This is an undergraduate course which deals with the basics of digital systems design and is a core module of the B.E(ECE) programme as it provides the prerequisites for advanced courses in VLSI and Embedded domain.</p>
+      <h4>OUTCOME</h4>
+      <p>Due to the significance of this course, the Digital Electronics Lab has been carefully designed to meet the course requirement. The lab is equipped with a total cost of Rs. 3,34,074 with well-furnished and uninterrupted power supply. The lab is fully equipped with all the hardware and software required to conduct the experiments. The hardware resources of the lab are Systems with Modelsim, Digital IC trainers for logic circuit design and analysis, Digital IC tester. Hardware experiments have been designed to familiarize students with the Digital Logic Design, through the implementation of different types of combinational and sequential such as adders, subtractor, code converters, comparators, multiplexers, flip-flops, counters, shift registers and sequence detectors. HDL experiments have been designed to familiarize students with the HDL based Digital Design Flow. There is a trained and skilled lab technician that takes care of the lab equipment. He also guides students about handling the lab equipment and the precautionary measures required for the students while working in the lab</p>
+      <h4>ROLE</h4>
+      <p>The students acquire adept knowledge in basic concepts involved in digital logic design. Students are encouraged to use the lab resources to perform activities and experiments which help them strengthen their concepts.</p>
+      <h4>LAB INCHARGE</h4>
+      <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Dr Senoj Joseph,Associate Professor,ECE Department</p>
+
+
+      <h4 style="color: blue; margin-bottom: 30px;">ELECTRON DEVICES LAB</h4>
+      <div class="con">
+        <img src="	http://117.239.103.188/media/image/Electron_Devices_Lab.jpg" alt="">
+        <img src="	http://117.239.103.188/media/image/ELECTRONICS_LAB.jpg" alt="">
+        <img src="	http://117.239.103.188/media/image/EDC.jpg" alt="">
+      </div>
+      <h4>PURPOSE</h4>
+      <p>The Electron Devices laboratory is facilitated to acquire knowledge in the field of biasing transistors . Electronics lab operates in designing power supplies with and without filters</p>
+      <h4>OUTCOME</h4>
+      <p>Students will learn how to develop and employ circuit models for elementary electronic components, e.g., resistors, sources, inductors, capacitors, diodes and transistors. Students become adept at using various methods of circuit analysis, including simplified methods such as series-parallel reductions, voltage and current dividers, and the node method. They learn to appreciate the consequences of linearity, in particular the principle of superposition and Thevenin-Norton equivalent circuits. An intuitive understanding of the role of power flow and energy storage in electronic circuits is gained.</p>
+      <h4>ROLE</h4>
+      <p>The lab facilitates to acquire knowledge in the field of Electronics and the science of electricity both deal with electric current. Electricity deals with current mainly as a form of energy that can operate lights and other equipment. Electronics treats electric current chiefly as a means of carrying information. The signals in electronic circuits may be classified as either digital or analog. A digital signal is like an ordinary electric switch-it is either on or off. An analog signal can have any value within a certain range.</p>
+      <h4>LAB INCHARGE</h4>
+      <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Ms B.Priyanka,Assistant Professor, ECE Department</p>
+
+      <h4 style="color: blue; margin-bottom: 30px;">ARM SUPPORTED CYPRESS POWERED EMBEDDED SYSTEM LAB</h4>
+      <div class="con">
+        <img src="http://117.239.103.188/media/image/Embedded_Systems_Lab.png" alt="">
+        <img src="http://117.239.103.188/media/image/ESD.jpg" alt="">
+        <img src="	http://117.239.103.188/media/image/esd.jpg" alt="">
+      </div>
+      <h4>PURPOSE</h4>
+      <p>ARM supported CYPRESS powered EMBEDDED SYSTEM lab is facilitated to develop ability in Embedded “C” programming using PIC controller, ARM-based controller, Atmel controller. The course objective is to introduce the basic concepts of Microcontroller and to develop in students High-level language programming skills and real-time applications of Embedded systems.</p>
+      <h4>OUTCOME</h4>
+      <p>1. Understand and apply the fundamentals of Embedded-C level programming of the microcontroller 2. Work with standard microcontroller real-time interfaces including GPIO, serial ports, digital-to-analogue converters and analog-to-digital converters 3. Troubleshoot interactions between software and hardware 4. Analyze abstract problems and apply a combination of hardware and software to address the problem 5.Use standard test and measurement equipment to evaluate digital interfaces.</p>
+      <h4>ROLE</h4>
+      <p>The Embedded system represents one of the most important technological advances of the past decade. The engineer who understands the microcontroller knows how to use it in industrial applications will be a leader in his firm. Many industries are installing embedded equipment for automating plant production functions such as assembly, production control, inventory accounting, and quality control.</p>
+      <h4>LAB INCHARGE</h4>
+      <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Mr.S. Ganesh Prabhu, Assistant Professor, ECE Department</p>
+
+       <h4 style="color: blue; margin-bottom: 30px;">MICROWAVE AND OPTICAL COMMUNICATION LAB</h4>
+       <div class="con">
+         <img src="http://117.239.103.188/media/image/Microwave_and_Optical_Communication_Lab.jpg" alt="">
+         <img src="http://117.239.103.188/media/image/modrobs.jpg" alt="">
+         <img src="http://117.239.103.188/media/image/microwave.jpg" alt="">
+       </div>
+       <h4>PURPOSE</h4>
+       <p>This lab is facilitated to acquire knowledge in the field of high-frequency transmission and basic optical transmission characteristics. Microwave lab operates at X-Band ( 8 to 12 GHz) frequency.</p>
+       <h4>OUTCOME</h4>
+       <p>Microwave antenna like horn (E & H Plane ) radiation characteristics can be studied. This lab is equipped with microwave signal generators, like klystron oscillator, GUNN oscillator, Microwave power supply and microwave power meter to measure the output power. This lab is equipped with various microwave components like isolator, frequency meter , fixed and variable attenuators, directional coupler , Tee (E-Plane & H-plane), Magic Tee, Horn antenna , matched termination. By using this various component students can study about to measure Insertion loss, Return loss, Attenuation measurement, VSWR etc., This lab is equipped with optical equipment to measure the bending loss, Numerical aperture, LED and Laser characteristics. Optical cable with 800nm,900nm are used for establishing analog and digital link.</p>
+       <h4>ROLE</h4>
+      <p>This lab facilitates to acquire knowledge in the field of optical communication and microwave frequency transmission which is used at all mobile operating companies like BSNL, AIRTEL, etc. Microwave engineering knowledge will help the students to get employment in AAI, ISRO, PRASAR BHARATI etc.</p>
+      <h4>LAB INCHARGE</h4>
+      <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Mr. U. Venkateshkumar, Assistant Professor, ECE Department.</p> 
+      
+      <h4 style="color: blue; margin-bottom: 30px;">SIGNAL AND IMAGE PROCESSING LAB</h4>
+      <div class="con">
+        <img src="http://117.239.103.188/media/image/Signal_and_Image__Processing_Lab.jpg" alt="">
+        <img src="http://117.239.103.188/media/image/DSP.jpg" alt="">
+        <img src="	http://117.239.103.188/media/image/esd_t96CYay.jpg" alt="">
+      </div>   
+      <h4>PURPOSE</h4>
+      <p>This lab facility is designed to support graduate and undergraduate research in the areas of signal and image processing. The lab provides office space for several graduate students. It also has a number of workstations and processing hardware.</p>
+      <h4>OUTCOME</h4>
+      <p>Signals like analog and digital characteristics can be studied. This lab is equipped with MATLAB software and digital signal processors to analyze the characteristics of signals.</p>
+    <h4>ROLE</h4>
+    <p>This lab facilitates to acquire knowledge in the field of signals and image processing. This lab is useful for imaging systems and biomedical applications.</p>
+    <h4>LAB INCHARGE</h4>
+    <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Ms. M. Jaishree, Assistant Professor, ECE Department.</p>
+
+    <h4 style="color: blue; margin-bottom: 30px;">VLSI DESIGN LAB</h4>
+    <div class="con">
+      <img src="http://117.239.103.188/media/image/VLSI_Design_Lab.jpg" alt="">
+      <img src="http://117.239.103.188/media/image/vlsi.jpg" alt="">
+      <img src="http://117.239.103.188/media/image/vls.jpg" alt="">
+    </div>
+    <h4>PURPOSE</h4>
+    <p>The purpose of the labs is to make familiar with the IC design method as well as a design concept that can be used for industry. It provides State-of-art facility for research and teaching at the postgraduate level.</p>
+    <h4>OUTCOME</h4>
+    <p>The VLSI (Very Large scale Integrated Circuit) research laboratory was established to investigate various aspects of VLSI circuits and systems design specifically in the design of energy-efficient digital circuits and systems, circuits for CMOS, VLSI architectures and algorithms for signal processing, image processing and communications. It involves developing VLSI algorithms, architectures and circuits for digital signal processing, and wireless communications. The research activities in the VLSI Laboratory are mainly in the areas of design and testing of novel VLSI based systems.</p>
+    <h4>ROLE</h4>
+    <p>The activities in the VLSI-based systems include real-time vision chip architecture, high-performance DSP architecture for FFT, DCT and wavelet transforms, architectures for DRAM/logic merged technology, and CMOS based sensing and imaging chip architectures. The activities in the VLSI design methodologies include development test metrics for VHDL verification and techniques for manufacturing test simulation (MTSIM) and test strategy selection at an early stage of the design cycle.</p>
+    <h4>LAB INCHARGE</h4>
+    <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Ms. V. Vijayalakshmi, Assistant Professor, ECE Department.</p>
+
+    <h4 style="color: blue; margin-bottom: 30px;">MICROPROCESSORS AND MICROCONTROLLERS LAB</h4>
+    <div class="con">
+      <img src="http://117.239.103.188/media/image/Microprocessors_and_Microcontrollers_Lab.jpg" alt="">
+      <img src="http://117.239.103.188/media/image/mpmc2.jpg" alt="">
+      <img src="http://117.239.103.188/media/image/mpmc.jpg" alt="">
+    </div>
+    <h4>PURPOSE</h4>
+    <p>This lab is facilitated to develop ability in programming using microprocessors and microcontrollers. The course objective is to introduce the basic concepts of microprocessor and to develop in students the assembly language programming skills and real-time applications of Microprocessor as well as a microcontroller.</p>
+    <h4>OUTCOME</h4>
+  <p>On completion of this lab course the students will be able to: Understand and apply the fundamentals of assembly level programming of microprocessors and microcontroller.
+    Work with standard microcontroller real time interfaces including GPIO, serial ports, digital-to-analog converters and analog-to-digital converters Troubleshoot interactions between software and hardware Analyze abstract problems and apply a combination of hardware and software to address the problem <>br /> Use standard test and measurement equipment to evaluate digital interfaces</p>
+  <h4>ROLE</h4>
+  <p>The microprocessor represents one of the most important technological advances of the past decade. The engineer who understands the microprocessor and controller knows how to use it in industrial applications will be a leader in his firm. Many industries are installing microprocessors for automating plant production functions such as assembly, production control, inventory accounting, and quality control.</p>
+  <h4>LAB INCHARGE</h4>
+  <p style="border-bottom: 1px solid gray;padding-bottom: 10px;">Mr.R. R. Thirrunavukkarasu, Assistant Professor, ECE Department</p>   
+ </article>
+
+ <article hidden id="limaterial">
+  <div class="lib1">
+    <img src="http://117.239.103.188/media/IMG20200128115138_OWVuz7m.jpg" alt="">
+    </div>
+    <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">DEPARTMENT LIBRARY</h3>
+    <p>The library serves as a central organ of academic activity in the Department. The Department has a rich & vast collection of more than 830 books, periodicals, and reports. It also has one copy each of all B.E. M.E. Projects, dissertations carried out in the department in recent years. All these cater to the needs of students and faculty. Most of the books are of recent edition with the facility of issuing these for a specified time period. The library serves to provide a calm and cozy ambiance conducive to long hours of study. The library opens on all working days of the Institute from 8.45 AM to 5 PM. Computerized cataloging and the active help of the library staff makes searching for volumes easy.
+      “Libraries are reservoirs of strength, grace and wit, reminders of order, calm and continuity, lakes of mental energy, neither warm nor cold, light nor dark. The pleasure they give is steady, unorgastic, reliable, deep and long-lasting". - Dr. Germaine Greer</p>
+
+  </article>
+  <article hidden id="mmaterial">
+    <div class="about">
+      <h2 style="color: blue;">ECE-MOUS</h2></div>
+  <table class="table" >
+      <thead>
+          <tr>
+              <th>S.No</th>
+              <th>Industry</th>
+              <th>Date</th>
+              <th>Outcome</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <div class="as"><td>1</td>
+            <td>Lakshmi Industrial Equipments</td></div>
+            <td>04.02.2022</td>
+            <td>1. To enhance skills and knowledge of the students and faculty members 2. Joint training programs towards mutual knowledge sharing</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>EpitomeCircuits, Bangalore</td>
+            
+            <td>15.11.2021</td>
+            <td>Internship and Tech Support</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>QUANTUM LEARNINGS Centre of Excellence</td>
+            
+            <td>14.04.2021</td>
+            <td>Students Project Tech Support and Certifications of Microsoft, Apple, EC Council, Autodesk, Adobe, Mississippi State University, University of Texas.</td>
+             </tr>
+        <tr>
+            <div class="as"><td>4</td>
+            <td>Tesla Minds, Chennai</td></div>
+            
+            <td>26.03.2021</td>
+          <td>The outcomes of the MoU is follows 1.Consultancy Project in Antenna design 2.Internship 3.Industrial projects 4.Training(Faculty and Students) 5.Collaborative research</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Coconut Development Board(Ministry of Agriculture & Farmers Welfare, Govt. of India)Cochin.</td>
+            
+            <td>15.11.2019</td>
+            <td>Funded Project Project & Product Development</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Spark Minda Technical Center, Pune</td>
+            
+            <td>30.04.2018</td>
+            <td>Placement,Internship & Inplant Training</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Shahid Rajaee Teacher Training University</td>
+            
+            <td>19.02.2018</td>
+            <td>Research Collaboration & Journal Publication</td>
+        </tr>
+        
+        <tr>
+            <td>8</td>
+            <td>ESSCI -Centre of Excellence in VLSI & Embedded System Design</td>
+            
+            <td>09.07.2016</td>
+            <td>1. Involving Students in Project. 2. Students can be trained for ESSCI -Certification. 3. Syllabus revamped inline with industrial needs and expectation.</td>
+        </tr>
+      </tbody>
+  </table>
+    
+  </article>
+  <article hidden id="conmaterial">
+    <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">CONSULTANCY</h3>
+    <div class="cons">
+      <img src="http://117.239.103.188/media/image/consultancy-and-project-management.jpg" alt="">
+    </div>
+    <ol>
+      <li>Lakeba HiTech Solutions (MNC), Coimbatore</li><p></p>
+      <li>Workfoster Ltd, Chennai</li><p></p>
+      <li>Amara Raja Batteries Ltd, Tirupati.</li><p></p>
+      <li>Enthu Technologies, Coimbatore</li><p></p>
+      <li>Kana Studios, Coimbatore</li><p></p>
+      <li>Tesla Minds, Chennai</li><p></p>
+      <li>Acetronz Automation, Coimbatore</li><p></p>
+      <li>B-Sustain Energy,Project Pvt Ltd,Chennai</li><p></p>
+    </ol>
+  </article>
+  <article hidden id="phmaterial">
+
+  </article>
+  <article hidden id="promaterial">
+
+  </article>
+  <article hidden id="patmaterial">
+
+  </article>
+  <article hidden id="jomaterial">
+
+  </article>
+  <article hidden id="pumaterial">
+
+  </article>
+  <article hidden id="simaterial">
+
+  </article>
+  <article hidden id="bmaterial">
+
+  </article>
+  <article hidden id="fmaterial">
+
+  </article>  
+  
+
+  <article hidden id="sec5-a">
+
+    <h3 style="margin-left: 10px;font-weight: 900;color: darkorange; text-align: justify;">EVENTS</h3><hr>
+
+   
+    <div class="imgrid">
+
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/29.3.22_HIGHER_EDUCATION.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">ECE- CAREER OPPORTUNITIES AFTER UNDER GRADUATION</h4>
+          <p style="padding: 5px;">2022-03-29</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/WhatsApp_Image_2021-11-18_at_7.38.56_PM.jpeg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">AICTE SPONSORED INTERNATIONAL CONFERENCE ON COMMUNICATION AND COMPUTIN</h4>
+          <p style="padding: 5px;">2022-02-18</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Invi_Outsystems.jpeg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">14 DAYS OF OUTSYSTEMS CHALLENGE (A CONCISE GUIDE)"</h4>
+          <p style="padding: 5px;">2021-12-04</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/WhatsApp_Image_2021-11-19_at_4.42.40_PM.jpeg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">AN EXPERT LECTURE ON OPTICAL SIGNAL MEASUREMENTS IN TELECOMMUNICATION</h4>
+          <p style="padding: 5px;">2021-11-20</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-11-13_at_8.50.36_AM.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">A WEBINAR ON "HOW TO CHOOSE MY CAREER VECTOR"</h4>
+          <p style="padding: 5px;">2021-11-13</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-11-12_at_5.06.34_PM.jpeg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">A WEBINAR ON "EMBEDDED C PROGRAMMING"</h4>
+          <p style="padding: 5px;">2021-11-13</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/WhatsApp_Image_2021-11-12_at_9.04.05_PM.jpeg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">TECH BUDS CLUB - EVENTS FOR STUDENTS</h4>
+          <p style="padding: 5px;">2021-11-13</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-11-11_at_6.47.21_PM.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">INAUGURATION OF “CENTRE OF EXCELLENCE FOR YOUTH EMPOWERMENT”</h4>
+          <p style="padding: 5px;">2021-11-12</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/INVITATION_4G_Mobile_Communication_and_LTE_001.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">START-UP BOOTCAMP ON 4G MOBILE COMMUNICATION AND LTE</h4>
+          <p style="padding: 5px;">2021-08-14</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/INVITATION_IDENTITY_AND_ACCESS_MANAGEMENT600.JPG" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">A STARTUP BOOTCAMP PROGRAMME ON "IDENTITY AND ACCESS MANAGEMENT".</h4>
+          <p style="padding: 5px;">2021-08-07</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Invitation_Forecasing_Through_Industries.JPG
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">A STARTUP BOOTCAMP PROGRAMME ON "FORECASTING THROUGH INDUSTRIES".</h4>
+          <p style="padding: 5px;">2021-08-07</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/INVITAITON_SEMICONDUCTOR_CAREER_PROSPECTS_OPPORTUNITIES_001.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">STARTUP BOOTCAMP ON "SEMICONDUCTOR CAREER PROSPECTS AND OPPORTUNITIES"</h4>
+          <p style="padding: 5px;">2021-07-31</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/ACE_Engg_Invitation.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON “OPPORTUNITIES AFTER ENGINEERING THROUGH GATE | ESE | PSU"</h4>
+          <p style="padding: 5px;">2021-07-31</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/Webinar_on_IELTS_-A_Gateway_to_Study_in_Abroad.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON IELTS -A GATEWAY TO STUDY IN ABROAD</h4>
+          <p style="padding: 5px;">2021-07-31</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/Invitation.png" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">SCILAB 5-DAYS ONLINE FDP IN ASSOCIATION WITH SPOKEN TUTORIAL, IITB</h4>
+          <p style="padding: 5px;">2021-07-26</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/INVITATION_Workshop_WhiteHat_Hacker_001.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">START-UP BOOTCAMP ON “HOW TO BECOME A WHITEHAT HACKER?"</h4>
+          <p style="padding: 5px;">2021-07-24</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="		http://117.239.103.188/media/image/CMOS_webinar_001.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON “RECENT TRENDS & CHALLENGES IN CMOS VLSI DESIGN"</h4>
+          <p style="padding: 5px;">2021-07-24</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/Virtual_Interac…epreneurial_Opportunity_in_Mobile_Application.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">VIRTUAL INTERACTIVE WEBINAR ON ENTREPRENEURIAL OPPORTUNITY IN MOBILE A</h4>
+          <p style="padding: 5px;">2021-07-17</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-21_at_9.39.21_AM_bIR0aSR.jpeg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON YOGA FOR STUDENT'S MENTAL HEALTH AND WELLBEING</h4>
+          <p style="padding: 5px;">2021-06-21</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-21_at_11.07.22_AM.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">INTERNATIONAL YOGA DAY - TALK SHOW CLUB</h4>
+          <p style="padding: 5px;">2021-06-21</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/THE_TECH_BUDS.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">EEC CLUB - IDEA PRESENTATION EVENT "THE TECH BUDS"</h4>
+          <p style="padding: 5px;">2021-06-19</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-14_at_8.00.56_PM.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON "BRIDGING THE GAP BETWEEN ACADEMICS AND INDUSTRY"</h4>
+          <p style="padding: 5px;">2021-06-15</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-10_at_8.41.30_PM.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON “SPEC TO SILICON-AN INDUSTRIAL PERSPECTIVE"</h4>
+          <p style="padding: 5px;">2021-06-11</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-10_at_11.46.24_AM.jpeg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON “INTERACTIVE SIMULATION-BASED LEARNING IN ANTENNA DESIGN"</h4>
+          <p style="padding: 5px;">2021-06-11</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-05-24_at_9.42.30_PM.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON WAY TO SUCCESS</h4>
+          <p style="padding: 5px;">2021-05-26</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-05-17_at_1.18.33_PM.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">ONLINE HANDS-ON TRAINING IN EMBEDDED SYSTEMS PROJECTS</h4>
+          <p style="padding: 5px;">2021-05-24</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-05-22_at_9.10.53_AM.jpeg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR SESSION ON “ ACQUIRE AN EDUCATION OVERSEAS ”</h4>
+          <p style="padding: 5px;">2021-05-22</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/21_May_2021.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON CONTENT WRITING SKILLS AND MANAGEMENT</h4>
+          <p style="padding: 5px;">2021-05-21</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/Webinar_on_Prof…sional_Guidance-_Opportunities_and_Challenges.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON PROFESSIONAL GUIDANCE- OPPORTUNITIES AND CHALLENGES</h4>
+          <p style="padding: 5px;">2021-05-06</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/Seminar_on_Product_Development_in_Future_Electronics.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">SEMINAR ON PRODUCT DEVELOPMENT IN FUTURE ELECTRONICS</h4>
+          <p style="padding: 5px;">2021-05-06</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Webinar_on_Star…_and_Career_Opportunities_in_Embedded_systems.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON STARTUP AND CAREER OPPORTUNITIES IN EMBEDDED SYSTEMS</h4>
+          <p style="padding: 5px;">2021-05-05</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Webinar_on_Inte…erty_and_Startups_for_Artificial_Intelligence.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON INTELLECTUAL PROPERTY AND STARTUPS FOR ARTIFICIAL INTELLIGE</h4>
+          <p style="padding: 5px;">2021-03-27</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Webinar_on_Role_of_Digital_Transformation_in_Startup.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON ROLE OF DIGITAL TRANSFORMATION IN STARTUP</h4>
+          <p style="padding: 5px;">2021-03-24</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/INNOVATIONS_IN_VLSI_PHYSICAL_DESIGN.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">INNOVATIONS IN VLSI PHYSICAL DESIGN</h4>
+          <p style="padding: 5px;">2021-03-19</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/E_project_Expo_2021.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">E PROJECT EXPO 2021</h4>
+          <p style="padding: 5px;">2021-03-19</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/5G_Invi.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">THREE DAYS ONLINE FDP ON 5G ANTENNA DESIGN</h4>
+          <p style="padding: 5px;">2021-03-18</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+  
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/Webinar_on_Process_Design_and_Prototype_Development.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON PROCESS DESIGN AND PROTOTYPE DEVELOPMENT</h4>
+          <p style="padding: 5px;">2021-03-13</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Resume_Building.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">AN ART OF RESUME BUILDING</h4>
+          <p style="padding: 5px;">2021-03-13</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/invi.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">ONLINE WEBINAR ON "MOVING INTO ENGINEERING (ECE) CAREER"</h4>
+          <p style="padding: 5px;">2021-03-10</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Physical_design_and_its_role_in_the_semiconductor_industry.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON PHYSICAL DESIGN AND ITS ROLE IN THE SEMICONDUCTOR INDUSTRY</h4>
+          <p style="padding: 5px;">2021-03-08</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Gender_Champions_Club.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">GENDER CHAMPIONS CLUB - WOMEN'S DAY 2021</h4>
+          <p style="padding: 5px;">2021-03-08</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/IMG-20201218-WA0001.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR- COMMUNICATION AND INTERPERSONAL SKILLS</h4>
+          <p style="padding: 5px;">2020-12-19</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><b></b>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/19_Dec_2020.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON "LEADERSHIP ROLES & RESPONSIBILITIES FOR I YEAR STUDENTS"</h4>
+          <p style="padding: 5px;">2020-12-18</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/invi.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">AN INTERACTIVE SESSION ON "HANGOUT WITH SUCCESSFUL ENTREPRENEUR"</h4>
+          <p style="padding: 5px;">2020-09-26</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Telecom_Evolution.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON “TELECOM EVOLUTION:4G,5G AND BEYOND”</h4>
+          <p style="padding: 5px;">2020-05-03</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/WhatsApp_Image_2020-04-23_at_5.22.00_PM.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">LORA FOR SMART CITIES</h4>
+          <p style="padding: 5px;">2020-04-24</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Networking_and_the_overview_of_Virtualization_1.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON NETWORKING AND THE OVERVIEW OF VIRTUALIZATION</h4>
+          <p style="padding: 5px;">2020-04-24</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/Industry_expectations_and_how_to_crack_interviews_page-0001.jpg" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON "INDUSTRY EXPECTATIONS AND HOW TO CRACK INTERVIEWS"/h4>
+          <p style="padding: 5px;">2020-04-22</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Embedded_System_Design-_A_Primer_kJ60Le7.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">EMBEDDED SYSTEM AND DESIGN -A PRIMER</h4>
+          <p style="padding: 5px;">2020-04-18</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/webinar-e_learning.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WEBINAR ON E-LEARNING</h4>
+          <p style="padding: 5px;">2020-04-16</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/session_photo1.jpg            " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">LIVE YOUTUBE WEBINAR ON "LABVIEW"</h4>
+          <p style="padding: 5px;">2020-03-30</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/image_EgyEoUm.png
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">LEGAL AWARENESS PROGRAMME -SPONSORED BY THE NCW,NEW DELHI</h4>
+          <p style="padding: 5px;">2020-03-06</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="	http://117.239.103.188/media/image/www.jpg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">SKCT MINI MAKEATHON 2020</h4>
+          <p style="padding: 5px;">2020-02-27</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/idea.png" alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">IDEATHON</h4>
+          <p style="padding: 5px;">2020-02-27</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="imgrid">
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Guest_Lecture_1.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">VEHICLE DIAGNOSTICS IN AUTOMOBILE INDUSTRY</h4>
+          <p style="padding: 5px;">2019-12-07</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+
+      
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/EMI.jpeg
+          " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">ELECTROMAGNETIC INTERFERENCE AND MEASUREMENT STANDARDS IN REAL WORLD A</h4>
+          <p style="padding: 5px;">2019-09-14</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+      <div
+          style=" width:330px; background-color:rgb(129, 132, 134) ;padding:5px;border-radius: .3em">
+          <img src="http://117.239.103.188/media/image/Wireless_communication_on_signal_processing.jpg            " alt=""
+              style="height: 330px; width: 330px;border-radius: .3em">
+          <h4 style="color: white; padding: 5px; ">WIRELESS COMMUNICATION ON SIGNAL PROCESSING</h4>
+          <p style="padding: 5px;">2019-07-13</p>
+          <div style="display: flex;justify-content: space-evenly;padding: 5px;">
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">DOWNLOAD
+                          BROUCHER</button></a>
+              </div>
+              <div class="button">
+                  <a href="http://117.239.103.188/media/image/2_37OWi34.jpg"><br>
+                      <button type="button"
+                          style="background-color: blue; padding:10px; font-size:15p; font-weight:bold; color:white ">
+                          link</button></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+
+
+  <!-- <div class="eve" style="box-sizing: border-box; box-shadow: gray 1px 1px 1px 1px ; width:337px; height: 500px; background-color:rgb(14, 123, 200) ;">                                
+                                  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-11-18_at_7.38.56_PM.jpeg" alt="" style="height: 330px; width: 330px;">
+  
+                                            
+  
+                                    <h4 style="color: white;  ">AICTE SPONSORED INTERNATIONAL CONFERENCE ON COMMUNICATION AND COMPUTIN</h4>                
+  
+                                   <p>2022-02-18</p>
+  
+                                    
+  
+                                     
+  
+                                  
+  
+                                  <div class="button">
+  
+                                   <a href="http://117.239.103.188/media/image/2_37OWi34.jpg">
+  
+                                     <button type="button" style="background-color: blue; padding:10px; font-size:15p;
+  
+                                    font-weight:bold; color:white " >
+  
+                                      DOWNLOAD BROUCHER</button></a>
+  
+                                  </div>
+                              </div> -->
+
+  <br><br>
+                                                                                                                </article>
+                <article hidden id="clmaterial">
+                  <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">CLUBS</h3>
+                  
+                  <div class="lib" >
+                    <h4 style="margin-left: 10px;font-weight: 900;color:rgb(17, 0, 255);padding-bottom: 10px;">EXPLORE ENGINEERS CLUB</h4>
+                   <div > <img src="	http://117.239.103.188/media/image/Explore_Club.jpg" alt="" >
+                    
+                    
+                    <p>The club aims at tapping the hidden potential of aspiring young researchers in engineering to know about the recent trends in technology and to render a helping hand when they are held up with technical issues. The club encourages students who have done projects with innovative ideas to present in a public forum that includes the members of the club alongside interested student fraternity.</p>
+                  </div>
+                    </div>
+                    
+                  <div class="lib" >
+                    <h4 style="margin-left: 10px;font-weight: 900;color:rgb(17, 0, 255);padding-bottom: 10px;">THE ELECTROVERT AND ELECTRONICS HOBBY CLUB</h4>
+                   <div > <img src="	http://117.239.103.188/media/image/65.png" alt="" >
+                    
+                    
+                    <p>The Electronics Hobby Club, “THE ELECTROVERT” aims to teach and help students understand the seemingly incomprehensible electronic gadgets and circuits in the world today and also assist people in developing their own devices. The mission of the club is to expose students to challenges and new technologies in the field of electronics and thus to nurture and develop their skill set in this arena. Regular meetings and mentorship programs conducted will definitely help students to achieve their goals. The emphasis is on experimenting and learning, no experience is necessary but eagerness to learn is essential. A plethora of lectures, workshops, projects, open house project display as well as competitions throughout the year concerning both analog as well as digital electronics are conducted.</p>
+                  </div>
+                    </div>
+                    <div class="lib" >
+                      <h4 style="margin-left: 10px;font-weight: 900;color:rgb(17, 0, 255);padding-bottom: 10px;">TALK SHOW CLUB</h4>
+                     <div > <img src="http://117.239.103.188/media/image/44.jpg                      " alt="" >
+                      
+                      
+                      <p>The "TALK SHOW" CLUB initiated by the Department of ECE is functioning since June 2015. The primary goal of this show is to make students of SKCT to participate actively in the Talk Show during the extended hours and make use of this opportunity to explore/share their views on the debate topic and to improve their communication skill, presentation skill and group discussion skill. Student coordinators will be selected during every academic year (from III yr) and they will be responsible for conducting the show, video recording the event, sharing the video with social networks after scrutiny and selecting the best performer. The best performer will be honoured with certificate during the annual day function</p>
+                    </div>
+                      </div>
+                      <div class="lib" >
+                        <h4 style="margin-left: 10px;font-weight: 900;color:rgb(17, 0, 255);padding-bottom: 10px;">THE PLANET 10 CLUB</h4>
+                       <div> <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-08-07_at_10.10.23_AM_UELcODj.jpeg" alt="" >
+                        
+                        
+                        <p>Dear all, Our ECE Students have planned to start a club "The Planet 10" - A new world to reveal our hidden potentials. We cordially invite you all to this inaugural session. Saturday, August 7 · 12:00 pm Google Meet joining info Video call link: https://meet.google.com/fcy-uqnb-vvv Or dial: ‪(US) +1 252-516-1019‬ PIN: ‪799 223 470‬# Thank you in advance</p>
+                      </div>
+                        </div>
+                        <div class="lib" >
+                          <h4 style="margin-left: 10px;font-weight: 900;color:rgb(17, 0, 255);padding-bottom: 10px;">TECH-BUDS CLUB</h4>
+                         <div > <img src="http://117.239.103.188/media/image/INVITATION_TECH_BUDS_CLUB_001.jpg" alt="" >
+                          
+                          
+                          <p>Greetings! Department of ECE inaugurating "TECH-BUDS" club on Saturday 09-10-2021 at 10 am. I cordially invite everyone to the inaugural function. The invitation is attached to this email. Join using Google meet link: meet.google.com/rqs-ybjb-ypr Time : 10am -11am DATE: SATURDAY (09-10-2021) STAFF CO-ORDINATORS Dr.U.Venkatesh Kumar Ms.B.Banuselvasaraswathy</p>
+                        </div>
+                          </div>
+                          </article>
+     <article hidden id="asmaterial">
+
+     </article> 
+     <article hidden id="plmaterial">
+      <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">PLACEMENT STATISTICS</h3>
+      <a style="display: flex ;margin-top: 20px" href="http://117.239.103.188/media/2017_-_2018_2We2G2X.pdf" target="blank"><i class="material-icons" style="color: blue; margin-bottom: 10px; ">arrow forward</i><li style="list-style: none;">Placed Students In The Year Of - 2017 - 2018</li></a>
+      <a style="display: flex ;margin-top: 20px" href="http://117.239.103.188/media/2016_-_2017.pdf" target="blank"><i class="material-icons" style="color: blue; margin-bottom: 10px; ">arrow forward</i><li style="list-style: none;">Placed Students In The Year Of - 2016 - 2017</li></a>
+      <a style="display: flex ;margin-top: 20px" href="http://117.239.103.188/media/2020_-_2021_zpPUF6z.pdf" target="blank"><i class="material-icons" style="color: blue; margin-bottom: 10px; ">arrow forward</i><li style="list-style: none;">Placed Students In The Year Of - 2020 - 2021</li></a>
+      <a style="display: flex ;margin-top: 20px" href="http://117.239.103.188/media/2019_-_2020_iss2bcH.pdf" target="blank"><i class="material-icons" style="color: blue; margin-bottom: 10px; ">arrow forward</i><li style="list-style: none;">Placed Students In The Year Of - 2019 - 2020</li></a>
+      <a style="display: flex ;margin-top: 20px" href="http://117.239.103.188/media/2018_-_2019_EmfnLAd.pdf" target="blank"><i class="material-icons" style="color: blue; margin-bottom: 10px; ">arrow forward</i><li style="list-style: none;">Placed Students In The Year Of - 2018 - 2019</li></a>
+      <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">OUR RECUITERS</h3>
+      <div class="place">
+            <div class="cont">
+              <div class="imti">
+                <img src="http://117.239.103.188/media/image/amazon.png" alt="" >
+                </div>
+                </div>
+
+            <div class="cont">
+              <div class="imti">
+                  <img src="http://117.239.103.188/media/image/2.png" alt="" >
+              </div>
+             </div>
+
+            <div class="cont">
+                <div class="imti">
+                  <img src="http://117.239.103.188/media/image/3_8UZ4jxk.jpg" alt="" >
+                </div>
+              </div>
+                        
+            <div class="cont">
+                <div class="imti">
+                  <img src="http://117.239.103.188/media/image/4.png" alt="" >
+               </div>
+            </div>
+                            
+            <div class="cont">
+                <div class="imti">
+                 <img src="http://117.239.103.188/media/image/5.png" alt="" >
+                  </div>
+                  </div>
+                </div>
+              
+           
+           <div class="place">
+           <div class="cont">
+            <div class="imti">
+              <img src="http://117.239.103.188/media/image/6.png" alt="" >
+              </div>
+              </div>
+
+              <div class="cont">
+                <div class="imti">
+                  <img src="http://117.239.103.188/media/image/7.jpeg" alt="" >
+                  </div>
+                  </div>
+
+                <div class="cont">
+                 <div class="imti">
+                <img src="http://117.239.103.188/media/image/8.png" alt="" >
+              </div>
+              </div>
+
+              <div class="cont">
+              <div class="imti">
+                <img src="http://117.239.103.188/media/image/9.jpeg" alt="" >
+                </div>
+              </div>
+
+             <div class="cont">
+               <div class="imti">
+                 <img src="http://117.239.103.188/media/image/10.png" alt="" >
+                 </div>
+               </div>
+              </div>
+              <div class="place">
+              <div class="cont">
+                <div class="imti">
+                <img src="http://117.239.103.188/media/image/11.jpeg" alt="" >
+                </div>
+              </div>
+
+              <div class="cont">
+                <div class="imti">
+                 <img src="http://117.239.103.188/media/image/12_yHpDNCi.png" alt="" >
+                 </div>
+               </div>
+
+             <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/13.png" alt="" >
+                 </div>
+             </div>
+
+             <div class="cont">
+               <div class="imti">
+                  <img src="http://117.239.103.188/media/image/14.png" alt="" >
+                  </div>
+             </div>
+
+             <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/15.png" alt="" >
+                 </div>
+            </div>
+          </div>
+<div class="place">
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/17.jpeg" alt="" >
+                 </div>
+            </div>
+
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/18.jpeg" alt="" >
+                 </div>
+            </div>
+
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/19.jpeg" alt="" >
+                 </div>
+            </div>
+
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/19.jpeg" alt="" >
+                 </div>
+            </div>
+
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/20.png" alt="" >
+                 </div>
+            </div>
+          </div>
+<div class="place">
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/21.png" alt="" >
+                 </div>
+            </div>
+
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/23.png" alt="" >
+                 </div>
+            </div>
+
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/24.png" alt="" >
+                 </div>
+            </div>
+
+            <div class="cont">
+              <div class="imti">
+                 <img src="http://117.239.103.188/media/image/25.jpeg" alt="" >
+                 </div>
+            </div>
+          </div>
+     </article>
+     <article hidden id="ranmaterial">
+      <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">RANK HOLDERS</h3>
+      <div class="r1" >
+      <div class="first" style="margin:10px;display: flex ; box-shadow: 2px 2px 2px 2px  rgb(122, 122, 153); margin-top: 20px;height:180px; width: 400px;">
+        <img src="	http://117.239.103.188/media/DIVYA.png" alt="" style="padding-top:10px;width: 120px; height: 150px; border-radius: 100px;">
+<div class="fcon" >
+  <h4 style="color: blue;">MS.A.DIVYA</h4>
+  <p>2016-2020</p>
+  <p>Rank: SECOND</p>
+</div>
+      </div>
+      <div class="first" style="margin:10px;display: flex ; box-shadow: 2px 2px 2px 2px  rgb(122, 122, 153); margin-top: 20px;height:180px; width: 400px;">
+        <img src="http://117.239.103.188/media/DURGA_DEVI.png" alt="" style="width: 120px; height: 150px; border-radius: 100px; padding: 10px;">
+<div class="fcon">
+  <h4 style="color: blue;">MS.J.DURGADEVI</h4>
+  <p>2016-2020</p>
+  <p>Rank: THIRD</p>
+</div>
+      </div>
+    
+    
+      <div class="first" style="margin:10px;display: flex ; box-shadow: 2px 2px 2px 2px  rgb(122, 122, 153); margin-top: 20px;height:180px; width: 400px;">
+        <img src="	http://117.239.103.188/media/ASWATHI.png" alt="" style="width: 120px; height: 150px; border-radius: 100px;">
+<div class="fcon">
+  <h4 style="color: blue;">MS.M.ASWATHI</h4>
+  <p>2015-2019</p>
+  <p>Rank: FIRST</p>
+</div>
+      </div>
+    </div>
+    <div class="r1" >
+      <div class="first" style="margin:10px;display: flex ; box-shadow: 2px 2px 2px 2px  rgb(122, 122, 153); margin-top: 20px;height:180px; width: 400px;">
+        <img src="http://117.239.103.188/media/DHARSHINI.png" alt="" style="width: 120px; height: 150px; border-radius: 100px; padding: 10px;">
+<div class="fcon">
+  <h4 style="color: blue;">MS.N.DHARSHINI</h4>
+  <p>2015-2019</p>
+  <p>Rank: SECOND</p>
+</div>
+      </div>
+    
+    
+      <div class="first" style="margin:10px;display: flex ; box-shadow: 2px 2px 2px 2px  rgb(122, 122, 153); margin-top: 20px;height:180px; width: 400px;">
+        <img src="http://117.239.103.188/media/DIVYADHARSHINI.png" alt="" style="width: 120px; height: 150px; border-radius: 100px;">
+<div class="fcon">
+  <h4 style="color: blue;">MS.R.DIVYADHARSHINI</h4>
+  <p>2015-2019</p>
+  <p>Rank: THIRD</p>
+</div>
+      </div>
+      <div class="first" style="margin:10px;display: flex ; box-shadow: 2px 2px 2px 2px  rgb(122, 122, 153); margin-top: 20px;height:180px; width: 400px;">
+        <img src="http://117.239.103.188/media/L5324_1.jpg" alt="" style="width: 120px; height: 150px; border-radius: 100px; padding: 10px;">
+<div class="fcon">
+  <h4 style="color: blue;">MS.GAYATHRI R.</h4>
+  <p>2017 - 2018</p>
+  <p>Rank: 1st Rank</p>
+</div>
+      </div>
+    </div>
+    
+    <div class="r1" >
+      <div class="first" style="margin:10px;display: flex ; box-shadow: 2px 2px 2px 2px  rgb(122, 122, 153); margin-top: 20px;height:180px; width: 400px;">
+        <img src="http://117.239.103.188/media/12L153_JAYARAGHAVI_R.jpg" alt="" style="width: 120px; height: 150px; border-radius: 100px;">
+<div class="fcon">
+  <h4 style="color: blue;">MS.JAYARAGHAVI R</h4>
+  <p>2017 - 2018</p>
+  <p>Rank: 2nd Rank</p>
+</div>
+</div>
+     </article>
+     <article hidden id="bematerial">
+
+<h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">ECE-BEST OUTGOING STUDENTS</h3>
+     </article>
+     <article hidden id="dismaterial">
+      <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">ECE-DISTINGUISHED ALUMNI</h3>
+     </article>
+     <article hidden id="himaterial">
+      <h3 style="margin-left: 10px;font-weight: 900;color: darkorange;border-bottom: 1px solid gray;padding-bottom: 10px;">ECE-HIGHER STUDIES</h3>
+     </article>
+     <article hidden id="">
+
+     </article>
+     <article hidden id="tesarticle">
+      
+                  
+      <div class="lib" >
+        
+       <div style="margin-top: 40px; margin-left: 40px;"> <img src="	http://117.239.103.188/media/image/shwe.jpg" alt="" style="border-radius: 500px; width: 150px; height: 150px;" >
+       </div>
+        <div style="margin-left: 5%;">
+        <p><h4>Ms U Shwetalaxmi</h4> My experience at Sri Krishna College of Technology was tremendous. The curriculum was challenging but rewarding. It provided me the basics as well as practical expertise in vast areas of Electronics and Communication. The professors in the college inspired my best efforts and helped me in areas where I needed guidance and support. Apart from technical skills, the faculty also helped improve my soft skills. The introduction of Snap Talk enhanced my confidence in public speaking. The knowledge acquired at SKCT has motivated me to pursue my postgraduate studies in Integrated Circuit Design at Technical University of Munich and Nanyang Technological University, (TUM Asia )Singapore.I am proud to be SKCT alumni and I thank my faculties for shaping my career.</p style="border-bottom: 1px solid gray;padding-bottom: 10px;">
+      
+        </div>
+        </div>
+        <div class="lib" >
+        
+          <div style="margin-top: 40px; margin-left: 40px;"> <img src="http://117.239.103.188/media/image/sai.jpg" alt="" style="border-radius: 500px; width: 150px; height: 150px;" >
+          </div>
+           <div style="margin-left: 5%;">
+           <p><h4>Mr Sai Surya Kannan, Student, University of Cininnati , USA</h4>A student’s life is a golden life- said Jawaharlal Nehru. I feel this is very apt statement, because I have spent golden years of my student life in SKCT. It was during those days my personality was moulded in the gracious hands of the faculty members. The facilities by the management and the guidance from the faculty had made me to designate this path</p>
+          </div>
+           </div>
+           <div class="lib">
+        
+            <div style="margin-top: 40px; margin-left: 40px;"> <img src="	http://117.239.103.188/media/image/suresh.png" alt="" style="border-radius: 500px; width: 150px; height: 150px;" >
+            </div>
+             <div style="margin-left: 5%;">
+             <p><h4>Mr. Suresh D, CEO – Spark Minda Technical Center</h4>It is a real “wow” feeling after seeing the infrastructure and interacting with staffs when I have visited recently the college campus. Krishna college has transformed very well in terms of its achievement , infrastructure, faculties ..etc…and really a benchmarking university in the region. I was personally able to witness the whole infrastructure, facilities, laboratories and test equipment’s…believe me in my say that “ it is the state of the art “ and “ best in class “ . Secondly, I need to admire the excellent staff members of the college who are very competent and are connecting well with the alumni members to ensure the success with the industry connect. Congratulations to management, staff’s, alumni’s and students of the university, I wish you all for more and more continuous success in days to come.</p>
+            </div>
+             </div>
+             <div class="lib" >
+        
+              <div style="margin-top: 40px; margin-left: 40px;"> <img src="	http://117.239.103.188/media/image/cristo.jpg" alt="" style="border-radius: 500px; width: 150px; height: 150px;" >
+              </div>
+               <div style="margin-left: 5%;">
+               <p><h4>Mr. CHRISTO GEORGE, CEO- HYKON INDIA PVT LTD</h4>It is my great pleasure to introduce myself as alumni, as an entrepreneur. During my college days my first priority was power sector. Immediately after college I started up with 5 employees as small scale industry named Hykon, Now after 26 years from 5 employees we are now 400 plus employees. One thing we should understand is that that there is a big opportunity in front of us. This type of opportunity never happens in India for the last 400 years. You are in the right place at right time. That’s INDIA. It is going to be one of the biggest economy in the world in the coming years. So the only thing in that you have to think big. I am very thankful for my teachers , my college for moulding me as an entrepreneur and I am really happy to see many faculty still there in our college and still doing a lot of activities for moulding the students to be professional. I wish each and every one helping me to achieve.</p>
+              </div>
+               </div>
+
+     </article>
+<article hidden id="gamaterial">
+<div class="gallery" style=" padding: 10px; margin-right: -15px;
+margin-left: -15px; ">
+  <div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-19_at_9.29.37_PM.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-21_at_12.28.29_PM.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-24_at_1.22.33_PM.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-29_at_4.08.58_PM.jpeg" alt="">
+</div>
+<div>
+<img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-06-30_at_12.03.10_PM.jpeg" alt="">
+</div>
+</div>
+
+<div class="gallery" style=" padding: 10px; margin-right: -15px;
+margin-left: -15px; ">
+  <div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-07-11_at_12.07.45_PM.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-07-11_at_12.07.17_PM.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-07-10_at_12.37.07_PM.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-07-19_at_12.48.24_PM.jpeg" alt="">
+</div>
+<div>
+<img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-08-14_at_4.08.51_PM.jpeg" alt="">
+</div>
+</div>
+
+<div class="gallery" style=" padding: 10px; margin-right: -15px;
+margin-left: -15px; ">
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-08-14_at_4.06.42_PM.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-08-11_at_7.39.21_PM_1.jpeg" alt="">
+</div>
+<div>
+  <img src="	http://117.239.103.188/media/image/WhatsApp_Image_2021-08-09_at_2.35.39_PM.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-08-07_at_1.49.34_PM.jpeg
+  " alt="">
+</div>
+<div>
+<img src="http://117.239.103.188/media/image/WhatsApp_Image_2021-08-05_at_9.36.39_AM.jpeg" alt="">
+</div>
+</div>
+
+<div class="gallery" style="padding: 10px; margin-right: -15px;
+margin-left: -15px;">
+<div>
+  <img src="	http://117.239.103.188/media/image/IMG-20210820-WA0008.jpg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/collage.jpg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/Aashraya_Mag_pic.JPG" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/Innovation__Entrepreneurship_Conclave.png
+  " alt="">
+</div>
+<div>
+<img src="http://117.239.103.188/media/image/3_EoRJwbW.jpg" alt="">
+</div>
+</div>
+
+<div class="gallery" style="padding: 10px; margin-right: -15px;
+margin-left: -15px;">
+<div>
+  <img src="http://117.239.103.188/media/image/students_acheivment.jpg" alt="">
+</div>
+<div>
+  <img src="	http://117.239.103.188/media/image/6_9yM6fVy.jpg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/7_XCyNj9I.jpg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/8_Pu4dAke.jpg
+  " alt="">
+</div>
+<div>
+<img src="http://117.239.103.188/media/image/11.JPG
+" alt="">
+</div>
+</div>
+
+<div class="gallery" style="padding: 10px; margin-right: -15px;
+margin-left: -15px;">
+<div>
+  <img src="	http://117.239.103.188/media/image/Explore_Club_exWfi3y.jpg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/hobby_club.jpeg" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/iete.JPG" alt="">
+</div>
+<div>
+  <img src="http://117.239.103.188/media/image/talk_show.jpg
+  " alt="">
+</div>
+<div>
+<img src="http://117.239.103.188/media/image/WhatsApp_Image_2020-01-31_at_2.57.08_PM.jpeg
+" alt="">
+</div>
+</div>
+
+</article>
+                         
+                                                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                    
+                                           
+                
+  
+
+      
+
+      
+
+      <br><br>
+
+
+
+    
+
+      
+
+
+
+  </main>
+
+    <script src="index.js"></script>
+    <script type="text/javascript">
+        const slider = document.querySelector(".slider");
+        const nextBtn = document.querySelector(".next-btn");
+        const prevBtn = document.querySelector(".prev-btn");
+        const slides = document.querySelectorAll(".slide");
+        const slideIcons = document.querySelectorAll(".slide-icon");
+        const numberOfSlides = slides.length;
+        var slideNumber = 0;
+    
+        //image slider next button
+        nextBtn.addEventListener("click", () => {
+          slides.forEach((slide) => {
+            slide.classList.remove("active");
+          });
+          slideIcons.forEach((slideIcon) => {
+            slideIcon.classList.remove("active");
+          });
+    
+          slideNumber++;
+    
+          if(slideNumber > (numberOfSlides - 1)){
+            slideNumber = 0;
+          }
+    
+          slides[slideNumber].classList.add("active");
+          slideIcons[slideNumber].classList.add("active");
+        });
+    
+        //image slider previous button
+        prevBtn.addEventListener("click", () => {
+          slides.forEach((slide) => {
+            slide.classList.remove("active");
+          });
+          slideIcons.forEach((slideIcon) => {
+            slideIcon.classList.remove("active");
+          });
+    
+          slideNumber--;
+    
+          if(slideNumber < 0){
+            slideNumber = numberOfSlides - 1;
+          }
+    
+          slides[slideNumber].classList.add("active");
+          slideIcons[slideNumber].classList.add("active");
+        });
+    
+        //image slider autoplay
+        var playSlider;
+    
+        var repeater = () => {
+          playSlider = setInterval(function(){
+            slides.forEach((slide) => {
+              slide.classList.remove("active");
+            });
+            slideIcons.forEach((slideIcon) => {
+              slideIcon.classList.remove("active");
+            });
+    
+            slideNumber++;
+    
+            if(slideNumber > (numberOfSlides - 1)){
+              slideNumber = 0;
+            }
+    
+            slides[slideNumber].classList.add("active");
+            slideIcons[slideNumber].classList.add("active");
+          }, 4000);
+        }
+        repeater();
+    
+        //stop the image slider autoplay on mouseover
+        slider.addEventListener("mouseover", () => {
+          clearInterval(playSlider);
+        });
+    
+        //start the image slider autoplay again on mouseout
+        slider.addEventListener("mouseout", () => {
+          repeater();
+        });
+        </script>
+    
+</body>
+</html>
